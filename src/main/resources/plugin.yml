@@ -1,0 +1,7 @@
+name: STAT_API
+version: '${version}'
+main: org.gang.bossmanager2.StatAPI
+api-version: '1.20'
+depend: [CommandAPI]
+libraries:
+  - io.github.rysefoxx.inventory:RyseInventory-Plugin:1.5.7
